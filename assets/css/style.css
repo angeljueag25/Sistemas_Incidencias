@@ -1,0 +1,115 @@
+/* 1. Base y Fondo General */
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif !important;
+    background-color: #0b132b !important;
+    color: #e8d8c8 !important;
+    min-height: 100vh;
+}
+
+/* 2. Tarjetas y Encabezados */
+.card {
+    border: 1px solid rgba(232, 216, 200, 0.12) !important;
+    border-radius: 14px !important;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4) !important;
+    background-color: #1c2541 !important;
+    color: #f3e9dc !important;
+    overflow: visible !important; /* Desbloquea menús flotantes */
+}
+
+.card-body, .table-responsive {
+    overflow: visible !important; /* Desbloquea contenedores internos */
+}
+
+.card-header {
+    background-color: #233059 !important;
+    border-bottom: 1px solid rgba(232, 216, 200, 0.15) !important;
+    border-top-left-radius: 14px !important;
+    border-top-right-radius: 14px !important;
+    font-weight: 600;
+    color: #f7ede2 !important;
+}
+
+/* 3. Controles de Formulario */
+.form-label {
+    color: #e8d8c8 !important;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.form-control, .form-select, .combobox-toggle {
+    background-color: #f5ebe0 !important;
+    border: 1px solid #d5bdaf !important;
+    color: #2b1c10 !important;
+    border-radius: 8px !important;
+    padding: 10px 14px !important;
+}
+
+.form-control::placeholder {
+    color: #8d7b68 !important;
+}
+
+.form-control:focus, .form-select:focus, .combobox-toggle:focus {
+    background-color: #f5ebe0 !important;
+    border-color: #d4a373 !important;
+    color: #2b1c10 !important;
+    box-shadow: 0 0 0 0.25rem rgba(212, 163, 115, 0.3) !important;
+}
+
+/* 4. Menús Desplegables / Dropdowns (Combobox y Estados) */
+.dropdown-menu {
+    position: absolute !important;
+    z-index: 1050 !important;
+    background-color: #f5ebe0 !important;
+    border: 1px solid #d5bdaf !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
+}
+
+.dropdown-item {
+    color: #2b1c10 !important;
+    font-weight: 500;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    background-color: #d5bdaf !important;
+    color: #1a0f07 !important;
+}
+
+/* 5. Estilos de Tabla */
+.table {
+    color: #2b1c10 !important;
+    background-color: #f5ebe0 !important;
+    border-color: #d5bdaf !important;
+    border-radius: 8px;
+}
+
+.table thead th {
+    background-color: #e6ccb2 !important;
+    color: #22150c !important;
+    border-bottom: 2px solid #d5bdaf !important;
+    font-weight: 600;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #f0e1d2 !important;
+    color: #2b1c10 !important;
+}
+
+.table-striped > tbody > tr:nth-of-type(even) {
+    background-color: #f5ebe0 !important;
+    color: #2b1c10 !important;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #eddcd2 !important;
+    color: #1a0f07 !important;
+}
+
+.table td {
+    border-top: 1px solid #d5bdaf !important;
+    vertical-align: middle;
+}
+
+.table .dropdown-toggle {
+    color: #2b1c10 !important;
+    font-weight: 500;
+}
